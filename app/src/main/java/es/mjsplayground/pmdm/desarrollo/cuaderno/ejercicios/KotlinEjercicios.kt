@@ -6,7 +6,7 @@ data class Tarea(val titulo: String, val terminada: Boolean = false)
 fun etiqueta(nombre: String?): String = if (nombre.isNullOrBlank()) "Sin nombre" else nombre.trim()  //TODO("Kotlin: nulabilidad y cadenas")
 
 /** Devuelve los títulos de las tareas sin terminar, conservando su orden. */
-fun pendientes(tareas: List<Tarea>): List<String> = TODO("Kotlin: filter y map")
+fun pendientes(tareas: List<Tarea>): List<String> =  TODO("Kotlin: filter y map")
 
 /** Describe el número de pendientes: "Pendientes: 2", por ejemplo. */
 fun resumen(tareas: List<Tarea>): String = TODO("Kotlin: función y plantilla")
